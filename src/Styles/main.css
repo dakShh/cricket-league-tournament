@@ -1,1 +1,7 @@
+.img-center {
+  display: flex;
+  margin: 0 auto !important;
+}
+
 @import "./hero.css";
+@import "./homeScreen.css";
