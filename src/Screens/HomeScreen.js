@@ -5,6 +5,7 @@ import Teams from "../Config/Data/teams";
 import VenueList from "../Config/Data/VenueList.json";
 import MatchCard from "../Components/MatchCard";
 import MatchList from "../Config/Data/matchList";
+import { Link } from "react-router-dom";
 const HomeScreen = () => {
   return (
     <>
@@ -18,14 +19,20 @@ const HomeScreen = () => {
           <Row>
             {Teams.map((team, index) => (
               <Col key={index} xs={6} md={4} lg={3}>
-                <Card className="team-card p-3 sm-p-3 my-3">
-                  <div style={{ height: "165px" }} className="d-flex align-items-center">
-                    <Card.Img variant="top" src={team.img} className="img-center team-card-img" />
-                  </div>
-                  <div className="mt-4 text-center">
-                    <h4>{team.name}</h4>
-                  </div>
-                </Card>
+                <Link to={`/teamDetails/${team.id}`}>
+                  <Card className="team-card p-3 sm-p-3 my-3">
+                    <div style={{ height: "165px" }} className="d-flex align-items-center">
+                      <Card.Img
+                        variant="top"
+                        src={team.img}
+                        className="img-center img-responsive"
+                      />
+                    </div>
+                    <div className="mt-4 text-center">
+                      <h4>{team.name}</h4>
+                    </div>
+                  </Card>
+                </Link>
               </Col>
             ))}
           </Row>
@@ -57,7 +64,9 @@ const HomeScreen = () => {
                   <td>{venue.first}</td>
                   <td>{venue.last}</td>
                   <td>{venue.matchesPlayed}</td>
-                  <td>{venue.homeOf}</td>
+                  <td>
+                    <Link to={`/teamDetails/${venue.homeOf.id}`}>{venue.homeOf.name}</Link>
+                  </td>
                 </tr>
               ))}
             </tbody>

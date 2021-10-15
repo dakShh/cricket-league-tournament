@@ -1,0 +1,13 @@
+.custom-navbar {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+.custom-navbar-brand {
+  border: 0px !important;
+}
+.custom-nav-link {
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.55);
+  display: block;
+  text-decoration: none;
+}

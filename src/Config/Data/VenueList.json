@@ -5,7 +5,10 @@
     "first": "2008",
     "last": "2019",
     "matchesPlayed": 81,
-    "homeOf": "Royal Challengers Banglore"
+    "homeOf": {
+      "id": 1,
+      "name": "Royal Challengers Banglore"
+    }
   },
   {
     "venue": "M. Chinnaswamy Stadium",
@@ -13,7 +16,10 @@
     "first": "2008",
     "last": "2019",
     "matchesPlayed": 81,
-    "homeOf": "Royal Challengers Banglore"
+    "homeOf": {
+      "id": 1,
+      "name": "Royal Challengers Banglore"
+    }
   },
   {
     "venue": "M. Chinnaswamy Stadium",
@@ -21,7 +27,10 @@
     "first": "2008",
     "last": "2019",
     "matchesPlayed": 81,
-    "homeOf": "Royal Challengers Banglore"
+    "homeOf": {
+      "id": 1,
+      "name": "Royal Challengers Banglore"
+    }
   },
   {
     "venue": "M. Chinnaswamy Stadium",
@@ -29,7 +38,10 @@
     "first": "2008",
     "last": "2019",
     "matchesPlayed": 81,
-    "homeOf": "Royal Challengers Banglore"
+    "homeOf": {
+      "id": 1,
+      "name": "Royal Challengers Banglore"
+    }
   },
   {
     "venue": "M. Chinnaswamy Stadium",
@@ -37,6 +49,9 @@
     "first": "2008",
     "last": "2019",
     "matchesPlayed": 81,
-    "homeOf": "Royal Challengers Banglore"
+    "homeOf": {
+      "id": 1,
+      "name": "Royal Challengers Banglore"
+    }
   }
 ]

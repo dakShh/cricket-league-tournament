@@ -10,13 +10,12 @@
   transform: translateY(-5px);
   transition: 0.5s;
 }
-.team-card-img {
-  max-width: 100%;
-  width: auto !important;
-  max-height: 100%;
-}
+
 .title {
   border-bottom: 1px solid rgb(100, 100, 100);
   padding-bottom: 5px;
   width: fit-content;
+}
+.matches-card {
+  border: 0 !important;
 }

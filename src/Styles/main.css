@@ -2,6 +2,16 @@
   display: flex;
   margin: 0 auto !important;
 }
-
+.img-responsive {
+  max-width: 100%;
+  width: auto !important;
+  max-height: 100%;
+}
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
 @import "./hero.css";
 @import "./homeScreen.css";
+@import "./header.css";
+@import "./teamDetails.css";
