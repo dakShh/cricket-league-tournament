@@ -15,3 +15,6 @@ a {
 @import "./homeScreen.css";
 @import "./header.css";
 @import "./teamDetails.css";
+@import "./playerProfile.css";
+@import "./matchCard.css";
+@import "./summary.css";

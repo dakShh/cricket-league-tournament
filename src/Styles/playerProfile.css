@@ -1,0 +1,14 @@
+.th {
+  width: 40%;
+  display: table-cell;
+
+  word-wrap: break-word;
+  text-align: left;
+}
+.tc {
+  width: 60%;
+  display: table-cell;
+  padding: 10px;
+
+  word-wrap: break-word;
+}

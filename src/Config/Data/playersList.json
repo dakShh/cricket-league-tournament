@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "first_name": "MS",
+    "last_name": "Dhoni",
+    "captain": 1,
+    "matches": 16,
+    "runs": 114,
+    "wickets": 0,
+    "wicket_keeper": 1,
+    "role": "batsman",
+    "batting_style": "Right-handed",
+    "bowling_style": "Medium Seam",
+    "Nationality": "Indian",
+    "dob": "07 JULY, 1981",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 2,
+      "name": "Chennai Super Kings"
+    },
+    "description": "A batting powerhouse, MS Dhoni possesses the ability to destroy different bowling attacks on his own. The calmness and composure in his demeanor along with a sharp cricketing brain accounts for a lethal combination on the cricketing field and the glistening silverware in the trophy cabinets at CSK are a testimony to his extraordinary leadership skills.   He was the face of Chennai Super Kings for the first eight editions of the league, leading them to two titles (2010 & 2011) and four runner-up finishes. He then became the first player to be drafted by Rising Pune Supergiant in the ninth edition of the league. And, he once again became the first player to be retained by CSK ahead of the IPL Player Auction 2018. The 2018 season of the league had a fairytale ending with another glistening silverware added to the trophy cabinet of the Chennai Super Kings.The 2019 edition of the league too saw the CSK reach the finals of the tournament under MS Dhoni’s leadership.While MS Dhoni has hung up his boots on a 16-year illustrious career for Team India, he will be seen donning the CSK colours once again."
+  },
+  {
+    "id": 2,
+    "first_name": "Ravindra",
+    "last_name": "Jadeja",
+    "captain": 0,
+    "matches": 16,
+    "runs": 227,
+    "wickets": 13,
+    "wicket_keeper": 0,
+    "role": "all-rounder",
+    "batting_style": "Left-handed",
+    "bowling_style": "Orthodox",
+    "Nationality": "Indian",
+    "dob": "06 December, 1988",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 2,
+      "name": "Chennai Super Kings"
+    },
+    "description": "The third retained player by CSK ahead of the IPL 2018 Player Auction, Ravindra Jadeja has been MS Dhoni’s go-to-man when he needed to break a partnership and the left-armer has delivered the goods on many occasions. His presence gives Dhoni the extra cushion of playing an additional batsman if needed.    Jadeja has been an enigma right since his advent in international cricket. He was part of the victorious Indian U-19 cricket team that won the World Cup in Malaysia in 2008. His performance in IPL 2008 helped Rajasthan Royals to title victory and earned him the nickname 'Rockstar' by his captain Shane Warne. In 2012 IPL player auction, Jadeja was bought by Chennai Super Kings for approx. Rs. 9.8 Crore, making him the most expensive player of the year's auction. Jadeja has represented the Gujarat Lions for two seasons and is now back with CSK for the eleventh edition of the league."
+  },
+  {
+    "id": 3,
+    "first_name": "Imran",
+    "last_name": "Tahir",
+    "captain": 0,
+    "matches": 1,
+    "runs": 0,
+    "wickets": 2,
+    "wicket_keeper": 0,
+    "role": "bowler",
+    "batting_style": "Right-handed",
+    "bowling_style": "Leg Spin",
+    "Nationality": "South African",
+    "dob": "27 March , 1979",
+    "ipl_debut": 2014,
+    "team": {
+      "id": 2,
+      "name": "Chennai Super Kings"
+    },
+    "description": "At 37 years of age, Imran Tahir became the World No.1 bowler in the shortest format of the game. His positivity and never-say-die attitude have been his success mantra all through these years, which is on display, every time he takes to the field.  From his customary sprint, after he picks up a wicket to the roars, Tahir’s enthusiasm has kept him going.    After representing Delhi Daredevils for two seasons, Tahir was included in the RPS squad for two seasons. The tenth edition of the league saw some match-winning performances by Tahir as he ended up picking 18 wickets in that season. Tahir is now all set to represent Chennai Super Kings."
+  }
+]

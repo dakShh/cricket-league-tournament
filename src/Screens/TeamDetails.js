@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import Teams from "../Config/Data/teams";
+import PlayersList from "../Config/Data/playersList.json";
+import PlayerCard from "../Components/PlayerCard";
 const TeamDetails = ({ match }) => {
   const teamData = Teams.find((x) => x.id == match.params.id);
   useEffect(() => {}, []);
@@ -37,6 +39,35 @@ const TeamDetails = ({ match }) => {
             <div className="p-4" style={{ height: "300px" }}>
               <img src={teamData.img} alt={teamData.name} className="img-responsive img-center" />
             </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Card className="team-detail-card mt-4 p-1">
+              <div className=" mt-4 mb-2">
+                <h2 className="">Squad List </h2>
+              </div>
+              <div>
+                <div className="w-100 text-center">
+                  <h4>All-Rounder</h4>
+                </div>
+                <Row className="gx-0 d-flex justify-content-center">
+                  <PlayerCard list={PlayersList} id={match.params.id} role="all-rounder" />
+                </Row>
+                <div className="w-100 text-center">
+                  <h4>Batsman</h4>
+                </div>
+                <Row className="gx-0 d-flex justify-content-center">
+                  <PlayerCard list={PlayersList} id={match.params.id} role="batsman" />
+                </Row>
+                <div className="w-100 text-center">
+                  <h4>Bowler</h4>
+                </div>
+                <Row className="gx-0 d-flex justify-content-center">
+                  <PlayerCard list={PlayersList} id={match.params.id} role="bowler" />
+                </Row>
+              </div>
+            </Card>
           </Col>
         </Row>
       </Container>

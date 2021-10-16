@@ -1,0 +1,29 @@
+.graphic {
+  border-right: 1px solid gray;
+}
+.team-names {
+  border-right: 1px solid gray;
+}
+.date-time {
+  margin-top: 0px;
+}
+@media screen and (max-width: 990px) {
+  .graphic {
+    border-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 574px) {
+  .graphic {
+    border-right: 0;
+    margin-bottom: 0;
+  }
+  .team-names {
+    border-right: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+  }
+  .date-time {
+    margin-top: 8px;
+  }
+}

@@ -4,3 +4,30 @@
   background: #e2e2e2 !important;
   color: #585d64 !important;
 }
+.player-card {
+  border: 0 !important;
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 10px !important;
+}
+.player-card:hover {
+  background-color: #4e565d !important ;
+  cursor: pointer;
+  color: #e4e4e4;
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+.user-profile {
+  font-size: 6em;
+}
+.player-card-name {
+  line-height: 13px;
+  padding: 5px;
+}
+.player-card-heading {
+  font-size: 12px;
+}
+.player-card-info {
+  padding: 0.5rem;
+}
