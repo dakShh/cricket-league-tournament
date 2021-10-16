@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Container, Row, Col, Card, Table } from "react-bootstrap";
-// import Hero from "../Components/Hero";
+import Hero from "../Components/Hero";
 import Teams from "../Config/Data/teams";
 import VenueList from "../Config/Data/VenueList.json";
 import MatchCard from "../Components/MatchCard";
@@ -15,7 +15,7 @@ const HomeScreen = (props) => {
   }, []);
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       <Container>
         {/* TEAMS */}
         <section>

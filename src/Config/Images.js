@@ -9,4 +9,6 @@ export const Images = {
   sh: require("../Assets/Images/sunrisersHyderabad.png").default,
   csk: require("../Assets/Images/chennaiSuperKings.png").default,
   user: require("../Assets/Images/userProfileImage.png").default,
+  herobg: require("../Assets/Images/iplbg.png").default,
+  bg1: require("../Assets/Images/bg.jpg").default,
 };
