@@ -11,6 +11,9 @@ a {
   color: inherit !important;
   text-decoration: none !important;
 }
+.pointer {
+  cursor: pointer;
+}
 @import "./hero.css";
 @import "./homeScreen.css";
 @import "./header.css";
@@ -18,3 +21,4 @@ a {
 @import "./playerProfile.css";
 @import "./matchCard.css";
 @import "./summary.css";
+@import "./Footer.css";

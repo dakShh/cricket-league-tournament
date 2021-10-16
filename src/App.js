@@ -1,5 +1,5 @@
 import Header from "./Components/Header";
-// import Footer from "./Components/Footer";
+import Footer from "./Components/Footer";
 import HomeScreen from "./Screens/HomeScreen";
 import TeamDetails from "./Screens/TeamDetails";
 import PlayerProfile from "./Screens/PlayerProfile";
@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/playerProfile/:id" component={PlayerProfile} />
           <Route path="/matchSummary/:id" component={MatchSummary} />
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );

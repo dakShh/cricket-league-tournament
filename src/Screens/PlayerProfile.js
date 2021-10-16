@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import { Images } from "../Config/Images";
 import PlayerList from "../Config/Data/playersList.json";
 const PlayerProfile = ({ match }) => {
   const playerData = PlayerList.find((x) => x.id == match.params.id);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
-      <Container>
+      <Container className="min-vh-100 mb-3">
         <Row>
           <Col md={8} className=" ">
             <Card className="team-detail-card mt-4 w-100 p-3 ">

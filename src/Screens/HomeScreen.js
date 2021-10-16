@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Container, Row, Col, Card, Table } from "react-bootstrap";
 // import Hero from "../Components/Hero";
 import Teams from "../Config/Data/teams";
 import VenueList from "../Config/Data/VenueList.json";
 import MatchCard from "../Components/MatchCard";
 import MatchList from "../Config/Data/matchList";
+import Scores from "../Config/Data/scores.json";
 import { Link } from "react-router-dom";
-const HomeScreen = () => {
+const HomeScreen = (props) => {
+  const match = useRef(null);
+  const [currFocus, setCurrFocus] = useState();
+  useEffect(() => {
+    // currFocus.current.scrollIntoView({ behaviour: "smooth" });
+  }, []);
   return (
     <>
       {/* <Hero /> */}
@@ -37,8 +43,62 @@ const HomeScreen = () => {
             ))}
           </Row>
         </section>
+        {/* list of matches */}
+        <section id="match" ref={match}>
+          <div className="heading mt-4 mb-1">
+            <h2 className="title">Matches</h2>
+          </div>
+          <MatchCard data={MatchList} pending={1} />
+        </section>
+        {/* tournament score table */}
+        <section id="scoreTable">
+          <div className="heading mt-4 mb-1">
+            <h2 className="title">Standings </h2>
+          </div>
+
+          <Table className="table table-hover" responsive="xl">
+            <thead>
+              <tr>
+                <th scope="col">Team</th>
+                <th scope="col">Played</th>
+                <th scope="col">Won</th>
+                <th scope="col">Lost</th>
+                <th scope="col">Tied</th>
+                <th scope="col">Points</th>
+                <th scope="col">Form</th>
+              </tr>
+            </thead>
+            <tbody>
+              {Scores.map((score, index) => (
+                <tr key={index} className="table-active">
+                  <th scope="row">
+                    <a href={`/teamDetails/${score.team.id}`}>{score.team.name}</a>
+                  </th>
+                  <td>{score.played}</td>
+                  <td>{score.won}</td>
+                  <td>{score.lost}</td>
+                  <td>{score.tied}</td>
+
+                  <td>{score.points}</td>
+                  <td>
+                    {score.form.map((x) => (
+                      <span>{x}</span>
+                    ))}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </Table>
+        </section>
+        {/* list of result */}
+        <section id="result">
+          <div className="heading mt-4 mb-1">
+            <h2 className="title">Results</h2>
+          </div>
+          <MatchCard data={MatchList} pending={0} />
+        </section>
         {/* list of venues */}
-        <section>
+        <section id="venue">
           <div className="heading mt-4 mb-1">
             <h2 className="title">List of Venues </h2>
           </div>
@@ -71,13 +131,6 @@ const HomeScreen = () => {
               ))}
             </tbody>
           </Table>
-        </section>
-        {/* list of matches */}
-        <section>
-          <div className="heading mt-4 mb-1">
-            <h2 className="title">Matches</h2>
-          </div>
-          <MatchCard data={MatchList} />
         </section>
       </Container>
     </>

@@ -10,4 +10,10 @@
   color: rgba(255, 255, 255, 0.55);
   display: block;
   text-decoration: none;
+  transition: 0.5s;
+}
+.custom-nav-link:hover {
+  transition: 0.8s;
+  color: #fff !important;
+  transform: scale(1.1);
 }

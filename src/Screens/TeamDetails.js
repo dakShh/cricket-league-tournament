@@ -1,14 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import Teams from "../Config/Data/teams";
 import PlayersList from "../Config/Data/playersList.json";
 import PlayerCard from "../Components/PlayerCard";
 const TeamDetails = ({ match }) => {
   const teamData = Teams.find((x) => x.id == match.params.id);
-  useEffect(() => {}, []);
+  const focusStart = useRef();
+  console.log(focusStart.current);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
-      <Container>
+      <Container className="min-vh-100 mb-3" ref={focusStart}>
         <Row>
           <Col md={8} className="d-flex ">
             <Card className="team-detail-card mt-4 w-100 p-3 ">

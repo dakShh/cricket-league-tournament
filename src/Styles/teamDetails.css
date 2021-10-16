@@ -1,8 +1,11 @@
 .team-detail-card {
   border: 0 !important;
   border-radius: 10px !important;
-  background: #e2e2e2 !important;
+  /* background: #e2e2e2 !important; */
   color: #585d64 !important;
+
+  background: rgb(191, 191, 191);
+  background: linear-gradient(0deg, rgba(191, 191, 191, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 .player-card {
   border: 0 !important;
@@ -10,6 +13,8 @@
   cursor: pointer;
   transition: 0.5s;
   border-radius: 10px !important;
+  background: rgb(124, 124, 124);
+  background: linear-gradient(180deg, rgba(124, 124, 124, 1) 0%, rgba(48, 48, 48, 1) 100%);
 }
 .player-card:hover {
   background-color: #4e565d !important ;

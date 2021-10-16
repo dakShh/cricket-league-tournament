@@ -1,0 +1,26 @@
+.footer {
+  border: 0 !important;
+  background-color: rgb(24, 24, 24) !important;
+}
+.icons {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.icons:hover {
+  color: #fff;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.footer ul {
+  margin: 8px 0 !important;
+  padding: 0 !important;
+  list-style: none;
+}
+.footer ul li {
+  transition: 0.3s;
+  padding: 5px 0;
+}
+.footer ul li:hover {
+  color: #fff;
+  transition: 0.3s;
+}

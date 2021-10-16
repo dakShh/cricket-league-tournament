@@ -1,3 +1,60 @@
 .summary-card {
   border: 0 !important;
 }
+.left-container {
+  padding: 1rem;
+}
+.right-container {
+  padding: 1rem;
+}
+.left-bottom-container div {
+  font-size: 10px;
+}
+.left-img-container,
+.right-img-container {
+  height: 200px;
+  padding: 1rem;
+}
+@media screen and (max-width: 421px) {
+  .left-container {
+    padding: 0.45rem !important;
+    text-align: center !important;
+  }
+  .right-container {
+    padding: 0.45rem !important;
+    text-align: center !important;
+  }
+  .score-card {
+    margin: 0 auto !important;
+  }
+  .left-bottom-container div {
+    font-size: 15px !important ;
+    margin: 0 auto !important;
+    white-space: nowrap !important;
+    line-height: 25px;
+  }
+  .right-bottom-container div {
+    width: 100% !important;
+    font-size: 15px !important ;
+    margin: 0 auto !important;
+    white-space: nowrap !important;
+    line-height: 25px;
+  }
+  .left-container span:nth-child(1) {
+    /* white-space: nowrap !important; */
+    height: 60px;
+  }
+  .right-container span:nth-child(1) {
+    /* white-space: nowrap !important; */
+    height: 60px;
+  }
+  .left-img-container,
+  .right-img-container {
+    height: 150px;
+    padding: 1rem;
+  }
+  .left-container span:nth-child(3),
+  .right-container span:nth-child(3) {
+    margin: 0 auto !important;
+  }
+}

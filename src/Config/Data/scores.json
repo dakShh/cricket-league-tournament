@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "team": {
+      "id": 1,
+      "name": "Royal Challengers Banglore"
+    },
+    "played": 14,
+    "won": 10,
+    "lost": 4,
+    "tied": 0,
+    "points": 20,
+    "form": [1, 0, 0, 1, 1]
+  },
+  {
+    "id": 2,
+    "team": {
+      "id": 2,
+      "name": "Chennai Super Kings"
+    },
+    "played": 14,
+    "won": 10,
+    "lost": 4,
+    "tied": 0,
+    "points": 20,
+    "form": [1, 0, 0, 1, 1]
+  },
+  {
+    "id": 3,
+    "team": {
+      "id": 3,
+      "name": "Mumbai Indians"
+    },
+    "played": 14,
+    "won": 10,
+    "lost": 4,
+    "tied": 0,
+    "points": 20,
+    "form": [1, 0, 0, 1, 1]
+  },
+  {
+    "id": 4,
+    "team": {
+      "id": 4,
+      "name": "Kolkata Knight Riders"
+    },
+    "played": 14,
+    "won": 10,
+    "lost": 4,
+    "tied": 0,
+    "points": 20,
+    "form": [1, 0, 0, 1, 1]
+  },
+  {
+    "id": 5,
+    "team": {
+      "id": 5,
+      "name": "Delhi Capitals"
+    },
+    "played": 14,
+    "won": 10,
+    "lost": 4,
+    "tied": 0,
+    "points": 20,
+    "form": [1, 0, 0, 1, 1]
+  },
+  {
+    "id": 6,
+    "team": {
+      "id": 6,
+      "name": "Sunrisers Hydrabad"
+    },
+    "played": 14,
+    "won": 10,
+    "lost": 4,
+    "tied": 0,
+    "points": 20,
+    "form": [1, 0, 0, 1, 1]
+  },
+  {
+    "id": 7,
+    "team": {
+      "id": 7,
+      "name": "Rajasthan Royals"
+    },
+    "played": 14,
+    "won": 10,
+    "lost": 4,
+    "tied": 0,
+    "points": 20,
+    "form": [1, 0, 0, 1, 1]
+  },
+  {
+    "id": 8,
+    "team": {
+      "id": 8,
+      "name": "Punjab Kings"
+    },
+    "played": 14,
+    "won": 10,
+    "lost": 4,
+    "tied": 0,
+    "points": 20,
+    "form": [1, 0, 0, 1, 1]
+  }
+]
