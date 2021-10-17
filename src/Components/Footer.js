@@ -1,14 +1,14 @@
 import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import { scroller } from "react-scroll";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import Teams from "../Config/Data/teams";
 const Footer = () => {
   const history = useHistory();
   const scrollTarget = (target) => scroller.scrollTo(target, { smooth: true, duration: 700 });
   const scrollToPage = async (target) => {
-    if (history.location.pathname !== "/") {
-      await history.push("/");
+    if (history.location.pathname !== "/cricket-league-tournament") {
+      await history.push("/cricket-league-tournament");
     }
     scrollTarget(target);
   };
@@ -52,9 +52,9 @@ const Footer = () => {
               <ul>
                 {Teams.map((team, index) => (
                   <li key={index}>
-                    <a href={`/cricket-league-tournament/teamDetails/${team.id}`}>
+                    <Link to={`/teamDetails/${team.id}`}>
                       <span>{team.name}</span>
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
