@@ -15,7 +15,7 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark custom-navbar">
         <div className="container">
-          <a className="navbar-brand custom-navbar-brand" href="/">
+          <a className="navbar-brand custom-navbar-brand" href="/cricket-league-tournament">
             Cricket League
           </a>
           <button
