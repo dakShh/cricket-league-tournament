@@ -52,7 +52,7 @@ const Footer = () => {
               <ul>
                 {Teams.map((team, index) => (
                   <li key={index}>
-                    <a href={`/teamDetails/${team.id}`}>
+                    <a href={`/cricket-league-tournament/teamDetails/${team.id}`}>
                       <span>{team.name}</span>
                     </a>
                   </li>
