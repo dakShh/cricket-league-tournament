@@ -1,13 +1,13 @@
 import React from "react";
 import MatchList from "../Config/Data/matchList";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
 const MatchSummary = ({ match }) => {
   const data = MatchList.find((x) => x.id == match.params.id);
   console.log("data", data);
   return (
     <>
-      <Container>
-        <Card className="summary-card ">
+      <Container className="min-vh-100 mb-3">
+        <Card className="summary-card pt-4">
           <div className="text-center mx-auto mb-4 w-50" style={{ borderBottom: "1px solid gray" }}>
             <h6>{data.venue}</h6>
           </div>
