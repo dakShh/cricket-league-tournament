@@ -6,8 +6,8 @@ const Header = () => {
   const history = useHistory();
   const scrollTarget = (target) => scroller.scrollTo(target, { smooth: true, duration: 700 });
   const scrollToPage = async (target) => {
-    if (history.location.pathname !== "/") {
-      await history.push("/");
+    if (history.location.pathname !== "/cricket-league-tournament") {
+      await history.push("/cricket-league-tournament");
     }
     scrollTarget(target);
   };
