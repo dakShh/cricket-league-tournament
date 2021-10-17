@@ -39,7 +39,7 @@ const TeamDetails = ({ match }) => {
               </div>
             </Card>
           </Col>
-          <Col>
+          <Col xs={{ order: "first" }} lg={{ order: "last" }}>
             <div className="p-4" style={{ height: "300px" }}>
               <img src={teamData.img} alt={teamData.name} className="img-responsive img-center" />
             </div>
@@ -47,7 +47,7 @@ const TeamDetails = ({ match }) => {
         </Row>
         <Row>
           <Col>
-            <Card className="team-detail-card mt-4 p-1">
+            <Card className="team-detail-card mt-4 p-3">
               <div className=" mt-4 mb-2">
                 <h2 className="">Squad List </h2>
               </div>

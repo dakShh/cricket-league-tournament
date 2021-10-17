@@ -17,7 +17,7 @@ const Footer = () => {
       <Card className="footer py-3">
         <Container>
           <Row>
-            <Col sm={4} md={4}>
+            <Col sm={4} md={4} className="footer-col">
               <h4>Quick Links</h4>
               <ul>
                 <li>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col sm={4} md={4}>
+            <Col sm={4} md={4} className="footer-col">
               <h4>Teams</h4>
               <ul>
                 {Teams.map((team, index) => (
@@ -59,7 +59,7 @@ const Footer = () => {
                 ))}
               </ul>
             </Col>{" "}
-            <Col sm={4} md={4}>
+            <Col sm={4} md={4} className="footer-col">
               <h4>Contact</h4>
               <ul>
                 <li>
@@ -69,7 +69,7 @@ const Footer = () => {
                   <a href="#na">Sponsorship</a>
                 </li>
               </ul>
-              <div className="d-flex justify-content-start mt-4 gap-3 fs-4">
+              <div className="d-flex justify-content-start mt-4 mb-3 gap-3 fs-4">
                 <i class="fab fa-twitter icons"></i>
                 <i class="fab fa-facebook-f icons"></i>
                 <i class="fab fa-instagram icons"></i>
