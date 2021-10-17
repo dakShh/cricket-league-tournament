@@ -86,7 +86,7 @@ const MatchCard = (props) => {
                       </div>
                       {match.status == 1 && (
                         <>
-                          <Link to={`matchSummary/${match.id}`}>
+                          <Link to={`/matchSummary/${match.id}`}>
                             <button
                               type="button"
                               class="btn w-100 p-2 my-2 btn-outline-light block"
