@@ -21,7 +21,7 @@ const Footer = () => {
               <h4>Quick Links</h4>
               <ul>
                 <li>
-                  <a href={`/`}>
+                  <a href={`/cricket-league-tournament`}>
                     <span>Home</span>
                   </a>
                 </li>

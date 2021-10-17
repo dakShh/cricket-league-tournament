@@ -14,7 +14,7 @@ const App = () => {
       <Router>
         <Header />
         <main>
-          <Route path="/" component={HomeScreen} exact />
+          <Route path="/cricket-league-tournament" component={HomeScreen} exact />
           <Route path="/teamDetails/:id" component={TeamDetails} />
           <Route path="/playerProfile/:id" component={PlayerProfile} />
           <Route path="/matchSummary/:id" component={MatchSummary} />

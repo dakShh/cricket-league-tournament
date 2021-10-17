@@ -34,7 +34,7 @@ const Header = () => {
           <div className={`collapse navbar-collapse ${show ? "show" : null}`} id="navbarColor01">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="custom-nav-link" href="/">
+                <a className="custom-nav-link" href="/cricket-league-tournament">
                   Home
                   <span className="visually-hidden">(current)</span>
                 </a>
