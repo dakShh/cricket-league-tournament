@@ -19,3 +19,12 @@
 .matches-card {
   border: 0 !important;
 }
+.venue-team-link {
+  color: #cdf9ff !important;
+  transition: 0.5s;
+  font-weight: 600;
+}
+.venue-team-link:hover {
+  color: rgb(0, 0, 0) !important;
+  transition: 0.5s;
+}

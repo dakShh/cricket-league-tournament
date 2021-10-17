@@ -10,7 +10,7 @@
     "lost": 4,
     "tied": 0,
     "points": 20,
-    "form": [1, 0, 0, 1, 1]
+    "form": [1, 1, 0, 1, 1]
   },
   {
     "id": 2,
@@ -19,11 +19,11 @@
       "name": "Chennai Super Kings"
     },
     "played": 14,
-    "won": 10,
-    "lost": 4,
+    "won": 9,
+    "lost": 5,
     "tied": 0,
-    "points": 20,
-    "form": [1, 0, 0, 1, 1]
+    "points": 18,
+    "form": [0, 1, 0, 1, 0]
   },
   {
     "id": 3,
@@ -32,11 +32,11 @@
       "name": "Mumbai Indians"
     },
     "played": 14,
-    "won": 10,
-    "lost": 4,
+    "won": 8,
+    "lost": 6,
     "tied": 0,
-    "points": 20,
-    "form": [1, 0, 0, 1, 1]
+    "points": 15,
+    "form": [1, 1, 0, 1, 1]
   },
   {
     "id": 4,
@@ -45,11 +45,11 @@
       "name": "Kolkata Knight Riders"
     },
     "played": 14,
-    "won": 10,
-    "lost": 4,
-    "tied": 0,
-    "points": 20,
-    "form": [1, 0, 0, 1, 1]
+    "won": 8,
+    "lost": 6,
+    "tied": 1,
+    "points": 14,
+    "form": [0, 0, 0, 1, 1]
   },
   {
     "id": 5,
@@ -58,11 +58,11 @@
       "name": "Delhi Capitals"
     },
     "played": 14,
-    "won": 10,
-    "lost": 4,
+    "won": 7,
+    "lost": 7,
     "tied": 0,
-    "points": 20,
-    "form": [1, 0, 0, 1, 1]
+    "points": 13,
+    "form": [1, 0, 0, 1, 0]
   },
   {
     "id": 6,
@@ -71,11 +71,11 @@
       "name": "Sunrisers Hydrabad"
     },
     "played": 14,
-    "won": 10,
-    "lost": 4,
-    "tied": 0,
-    "points": 20,
-    "form": [1, 0, 0, 1, 1]
+    "won": 7,
+    "lost": 7,
+    "tied": 1,
+    "points": 11,
+    "form": [0, 0, 0, 1, 1]
   },
   {
     "id": 7,
@@ -84,11 +84,11 @@
       "name": "Rajasthan Royals"
     },
     "played": 14,
-    "won": 10,
-    "lost": 4,
-    "tied": 0,
-    "points": 20,
-    "form": [1, 0, 0, 1, 1]
+    "won": 6,
+    "lost": 8,
+    "tied": 1,
+    "points": 10,
+    "form": [0, 1, 1, 0, 1]
   },
   {
     "id": 8,
@@ -97,10 +97,10 @@
       "name": "Punjab Kings"
     },
     "played": 14,
-    "won": 10,
-    "lost": 4,
-    "tied": 0,
-    "points": 20,
-    "form": [1, 0, 0, 1, 1]
+    "won": 5,
+    "lost": 9,
+    "tied": 2,
+    "points": 10,
+    "form": [1, 0, 1, 0, 1]
   }
 ]

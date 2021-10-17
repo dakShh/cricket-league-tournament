@@ -61,5 +61,446 @@
       "name": "Chennai Super Kings"
     },
     "description": "At 37 years of age, Imran Tahir became the World No.1 bowler in the shortest format of the game. His positivity and never-say-die attitude have been his success mantra all through these years, which is on display, every time he takes to the field.  From his customary sprint, after he picks up a wicket to the roars, Tahir’s enthusiasm has kept him going.    After representing Delhi Daredevils for two seasons, Tahir was included in the RPS squad for two seasons. The tenth edition of the league saw some match-winning performances by Tahir as he ended up picking 18 wickets in that season. Tahir is now all set to represent Chennai Super Kings."
+  },
+  {
+    "id": 4,
+    "first_name": "Rohit",
+    "last_name": "Sharma",
+    "captain": 1,
+    "matches": 13,
+    "runs": 381,
+    "wickets": 0,
+    "wicket_keeper": 0,
+    "role": "batsman",
+    "batting_style": "Right-handed",
+    "bowling_style": "Off Spin",
+    "Nationality": "Indian",
+    "dob": "30 April, 1987",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 3,
+      "name": "Mumbai Indians"
+    },
+    "description": "All eyes will once again be on him as he takes charge as captain of the defending champions. Rohit Sharma has etched his name as the most successful captain in the IPL with five trophies, the most by anyone in the tournament. A prolific run-getter, the Hitman is one of the most naturally gifted batsmen in the world and has been enjoying a tremendous run with the bat. When it comes to the shorter format, there are few who can match his striking abilities. Rohit proved why he is regarded as a special talent when he became the first batsman to strike two double centuries in the ODIs and he now has three. He was one of the most consistent Deccan Chargers batsmen in the first three seasons of the IPL and was instrumental in his former franchise winning the 2009 crown.However, since 2011, Rohit has been an integral part of the Mumbai Indians guiding their batting line-up. He took over the team’s captaincy a couple of games into the 2013 season and led MI to their maiden IPL title. In the same year, MI also completed a grand double when they clinched the Champions League T20 title. His captaincy was put to test in the 2015 season after the team won just one of their first six games and were struggling to stay afloat. Mumbai Indians then staged a remarkable turnaround and lifted the Trophy for the second time with a convincing win in the final. Rohit, who made a half-century, was named the Player of the Match.  The legacy of Hitman expanded further on, after powering Mumbai Indians to title victories in the 2017 and 2019 seasons, both being last ball thrillers. Rohit led the Mumbai Indians to a successful campaign in the 2020 season, which was their second consecutive title and the Mumbai Indians skipper will be eying to become the first captain in the history of IPL to secure a hattrick of title wins."
+  },
+  {
+    "id": 5,
+    "first_name": "Jayant",
+    "last_name": "Yadav",
+    "captain": 0,
+    "matches": 5,
+    "runs": 34,
+    "wickets": 2,
+    "wicket_keeper": 0,
+    "role": "bowler",
+    "batting_style": "Right-handed",
+    "bowling_style": "Off Spin",
+    "Nationality": "Indian",
+    "dob": "22 January, 1990",
+    "ipl_debut": 2015,
+    "team": {
+      "id": 3,
+      "name": "Mumbai Indians"
+    },
+    "description": "After being with the Delhi franchise since 2015, Jayant Yadav was traded to Mumbai Indians ahead of the 12th season.An off spinner and a capable bat, Jayant fits into the all-rounder role. Although he has only played 14 IPL games, Jayant is a senior in the domestic circuit and has represented India in fours Tests and one ODI. He has fond memories of the Wankhede Stadium, as it was here that he scored his maiden Test century against England in 2016 batting at No. 9. He also led India in the Emerging Teams Asia Cup. Although he featured in only 2 games in the 2020 season, he made it count by getting an early breakthrough with the ball for MI in the finals of the 13th edition."
+  },
+  {
+    "id": 6,
+    "first_name": "Hardik",
+    "last_name": "Pandya",
+    "captain": 0,
+    "matches": 12,
+    "runs": 127,
+    "wickets": 0,
+    "wicket_keeper": 0,
+    "role": "all-rounder",
+    "batting_style": "Right-handed",
+    "bowling_style": "Medium Seam",
+    "Nationality": "Indian",
+    "dob": "11 October, 1993",
+    "ipl_debut": 2015,
+    "team": {
+      "id": 3,
+      "name": "Mumbai Indians"
+    },
+    "description": "If there is one thing that separates Hardik Pandya from other young cricketers, it is his immense self-belief. The flamboyant Baroda all-rounder never lets pressure affect his game, but instead relishes such situations. A big hitter and a fast-bowling all-rounder, Hardik ticks all the boxes that a team desires from an all-rounder. It was no surprise that he was fast-tracked into the Indian ODI and T20 side after a successful run in the IPL 2015.In his debut IPL game against RCB, he hit a six off just the second ball he faced. However, his potential was truly known when he took Mumbai to victory with a quick-fire eight ball 21 against CSK coming when the team needed 30 from two overs.In the 12th edition of IPL, he scored 400 runs and picked up 14 wickets, proving his versatility. After missing out on a lot of action owing to a back injury, Hardik made a phenomenal comeback in the 2020 season, playing the finisher role for the team and hammering the ball in the slog overs at a strike rate of 178. Having found success both with the bat and ball at the International stage, his contribution to the Mumbai Indians line-up would prove to be extremely valuable for the side’s success in the 2021 season."
+  },
+  {
+    "id": 7,
+    "first_name": "Virat",
+    "last_name": "Kohli",
+    "captain": 1,
+    "matches": 15,
+    "runs": 405,
+    "wickets": 0,
+    "wicket_keeper": 0,
+    "role": "batsman",
+    "batting_style": "Right-handed",
+    "bowling_style": "Medium Seam",
+    "Nationality": "Indian",
+    "dob": "05 November, 1988",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 1,
+      "name": "Royal Challengers Banglore"
+    },
+    "description": "The Indian Cricket Team’s Captain, popularly known as the Run Machine, ViratKohli’s ability and hunger to score daddy hundreds has taken the cricket world by storm. Ranked No. 1 in ODIs, No.2 in Test cricket and No.3 in T20Is is a testimony of how the stylist top-order batsman has evolved over the years. The flamboyant cricketer was the captain of the Indian team that won the 2008 ICC U19 Cricket World Cup and since then there has been no looking back for King Kohli. He is the new-age cricketer who is aggressive and expresses his mind on the field. In 2008, Kohli was inducted in the RCB squad and started leading the side in the year 2013. In the year 2016, he sat atop on the leading run-scorers list, thereby donning the Orange Cap at the end of the ninth edition of the league. The highest paid cricketer in IPL, ViratKohli was the first one to be retained by his franchise ahead of the IPL 2018 Player Auction and will continue to lead his side."
+  },
+  {
+    "id": 8,
+    "first_name": "Harshal",
+    "last_name": "Patel",
+    "captain": 0,
+    "matches": 15,
+    "runs": 59,
+    "wickets": 32,
+    "wicket_keeper": 0,
+    "role": "bowler",
+    "batting_style": "Right-handed",
+    "bowling_style": "Medium Seam",
+    "Nationality": "Indian",
+    "dob": "23 November, 1990",
+    "ipl_debut": 2012,
+    "team": {
+      "id": 1,
+      "name": "Royal Challengers Banglore"
+    },
+    "description": "Harshal Patel makes his return to RCB after being traded in from the Delhi Capitals ahead of IPL 2021. The Haryana-born pacer made his debut IPL appearance in 2012. After spending the majority of his IPL career at Royal Challengers Bangalore, Patel, who moved to Delhi in 2018, put in some impressive all-round performances during the domestic season of 2019-20, and was one of the few players to be retained by Delhi Capitals ahead of the IPL 2020. The all-rounder is all set to Play Bold once again."
+  },
+  {
+    "id": 9,
+    "first_name": "Washington",
+    "last_name": "Sundar",
+    "captain": 0,
+    "matches": 6,
+    "runs": 31,
+    "wickets": 3,
+    "wicket_keeper": 0,
+    "role": "all-rounder",
+    "batting_style": "Left-handed",
+    "bowling_style": "Off Spin",
+    "Nationality": "Indian",
+    "dob": "05 October, 1999",
+    "ipl_debut": 2017,
+    "team": {
+      "id": 1,
+      "name": "Royal Challengers Banglore"
+    },
+    "description": "After having displayed some disciplined performance in IPL 2017 for Rising Puner Supergiant, young Washington Sundar is all set to represent RCB in the eleventh edition of the league. One of the most exciting talents to emerge from the Indian domestic circuit in recent times, Sundaris a skilfull left hand middle order batsman and off-spinning allrounder.Even though he wasn't chosen in the IPL 2017 Auction, but was named as a late replacement for R Ashwin for RPS and having bowled most of his overs in the powerplay to Warner, Rohit Sharma, Uthappa, Raina - he has come out on top on most occasions. He made his debut for India in the ODI series against Sri Lanka at Mohali in December 2017. Later in the month, he also made his T20I debut at Mumbai, becoming India's youngest ever T20I player. Considering his potential, the INR 3.2 Crores shelled out for the youngtser's services ahead of the IPL 2018 seems a steal."
+  },
+  {
+    "id": 10,
+    "first_name": "Eoin",
+    "last_name": "Morgan",
+    "captain": 1,
+    "matches": 17,
+    "runs": 133,
+    "wickets": 0,
+    "wicket_keeper": 0,
+    "role": "batsman",
+    "batting_style": "Left-handed",
+    "bowling_style": "Medium Seam",
+    "Nationality": "English",
+    "dob": "10 September, 1986",
+    "ipl_debut": 2010,
+    "team": {
+      "id": 4,
+      "name": "Kolkata Knight Riders"
+    },
+    "description": "An Irish-born Englishman with a reputation for inventive and audacious stroke-play, Eoin Morgan has over time proved to be one of the most innovative players in international cricket. With a blend of nous and power, Morgan is a natural finisher. He has spent most of his IPL career with KKR but represented the Sunrisers Hyderabad in 2015 and 2016 and played for Kings XI Punjab (now Punjab Kings) in 2017. The 2019 World Cup winning captain made a return to the Kolkata Knight Riders in 2020 after being one of the top buys for KKR in the 2020 IPL Auction. He also took over captaincy duties from Dinesh Karthik mid-season in 2020 and will be looking to take KKR to IPL glory in 2021."
+  },
+  {
+    "id": 11,
+    "first_name": "Andre",
+    "last_name": "Russell",
+    "captain": 0,
+    "matches": 10,
+    "runs": 183,
+    "wickets": 11,
+    "wicket_keeper": 0,
+    "role": "all-rounder",
+    "batting_style": "Right-handed",
+    "bowling_style": "Fast Seam",
+    "Nationality": "West Indian",
+    "dob": "29 April, 1988",
+    "ipl_debut": 2012,
+    "team": {
+      "id": 4,
+      "name": "Kolkata Knight Riders"
+    },
+    "description": "Attacking all-rounder from the Caribbean, Andre Russell is one of the most sought-after talents at the Indian Premier League. He has proved his credentials time and again with masterful batting and bowling performances in the past for KKR. His famed abilities as an impactful all-rounder have come to the fore time and again when his team has required. Be it in run-chases or setting a big total on the board, Andre Russell has been the trump card for KKR."
+  },
+  {
+    "id": 12,
+    "first_name": "Lockie",
+    "last_name": "Ferguson",
+    "captain": 0,
+    "matches": 8,
+    "runs": 18,
+    "wickets": 13,
+    "wicket_keeper": 0,
+    "role": "bowler",
+    "batting_style": "Right-handed",
+    "bowling_style": "Fast Seam",
+    "Nationality": "New Zealander",
+    "dob": "13 June, 1991",
+    "ipl_debut": 2017,
+    "team": {
+      "id": 4,
+      "name": "Kolkata Knight Riders"
+    },
+    "description": "Kiwi pacer Lockie Ferguson is known for raw pace. He first entered the New Zealand ODI squad in December 2016 and has played a total of 37 matches. He has played 13 T20Is taking 24 wickets at an average of 13.16. Lockie was drafted into the KKR setup in 2019 and played just five games. In 2020 too he played 5 games and took 6 wickets that included a 3-wicket haul. A gun pacer with an ability to pick wickets, Lockie could be an X-factor in the KKR pace battery."
+  },
+  {
+    "id": 13,
+    "first_name": "Rishabh",
+    "last_name": "Pant",
+    "captain": 1,
+    "matches": 16,
+    "runs": 419,
+    "wickets": 0,
+    "wicket_keeper": 1,
+    "role": "batsman",
+    "batting_style": "Left-handed",
+    "bowling_style": "",
+    "Nationality": "Indian",
+    "dob": "04 October, 1997",
+    "ipl_debut": 2016,
+    "team": {
+      "id": 5,
+      "name": "Delhi Capitals"
+    },
+    "description": "Rishabh Pant, the swashbuckling wicketkeeper-batsman, was one of the three players retained by Delhi ahead of the 2018 auction, and paid it back with a season, scoring close to 700 runs. While he missed out on the IPL Orange Cap but his batting was a bright spot for the Delhi Capitals, who went on retain the youngster for the next two seasons, including for the IPL 2020.Named skipper for the IPL 2021 following an injury to Shreyas Iyer, Pant, who has 1 hundred and 12 IPL fifties to his name, is coming into this edition of the tournament on the back of a brilliant run of form in international and will be looking to replicate the same for Delhi Capitals."
+  },
+  {
+    "id": 14,
+    "first_name": "Amit",
+    "last_name": "Mishra",
+    "captain": 0,
+    "matches": 4,
+    "runs": 0,
+    "wickets": 6,
+    "wicket_keeper": 0,
+    "role": "bowler",
+    "batting_style": "Right-handed",
+    "bowling_style": "Leg Spin",
+    "Nationality": "Indian",
+    "dob": "24 November, 1982",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 5,
+      "name": "Delhi Capitals"
+    },
+    "description": "Leg-spinner Amit Mishra remains a vital cog in the Delhi Capitals’ machinery. The wily leg-spinner, who has the most hat-tricks in the tournament, has over 150 IPL wickets against his name. While the injury cut short his IPL 2020 journey, the veteran spinner will be gunning for success during the IPL 2021."
+  },
+  {
+    "id": 15,
+    "first_name": "Steve",
+    "last_name": "Smith",
+    "captain": 0,
+    "matches": 8,
+    "runs": 152,
+    "wickets": 0,
+    "wicket_keeper": 0,
+    "role": "all-rounder",
+    "batting_style": "Right-handed",
+    "bowling_style": "Leg Spin",
+    "Nationality": "Australian",
+    "dob": "02 June, 1989",
+    "ipl_debut": 2012,
+    "team": {
+      "id": 5,
+      "name": "Delhi Capitals"
+    },
+    "description": "One of the finest batsmen going around, Steve Smith, moved to Delhi Capitals from Rajasthan Royals after being bought for INR 2.20 Cr during the player auction ahead of the IPL 2021. The right-hander has so far played 95 IPL games, scoring over 2300 runs with the help of a hundred and 11 fifties and he will be keen to enjoy a fine run with the bat in the IPL 2021."
+  },
+  {
+    "id": 16,
+    "first_name": "Kane",
+    "last_name": "Williamson",
+    "captain": 1,
+    "matches": 10,
+    "runs": 266,
+    "wickets": 0,
+    "wicket_keeper": 0,
+    "role": "all-rounder",
+    "batting_style": "Right-handed",
+    "bowling_style": "Leg Spin",
+    "Nationality": "Australian",
+    "dob": "02 June, 1989",
+    "ipl_debut": 2012,
+    "team": {
+      "id": 6,
+      "name": "Sunrisers Hydrabad"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dui bibendum, fringilla ipsum iaculis, pretium enim. Morbi ornare elit in dui ullamcorper, et euismod justo lacinia. Sed in dui vel leo consectetur condimentum in in nunc. Quisque maximus sapien sed elit ultricies, quis semper urna condimentum. Aliquam erat volutpat. Aliquam dapibus, leo pulvinar blandit dignissim, nibh orci hendrerit tellus, eget aliquet libero tellus vitae massa. Donec ac lacinia dui, vitae placerat turpis. Integer efficitur venenatis magna, eu posuere nisl luctus vitae. Sed aliquet lectus sit amet accumsan efficitur. Nam interdum est purus, sodales sagittis risus luctus eu. Mauris at tellus molestie, ultrices orci ut, lobortis ligula. Vivamus a turpis et ipsum commodo gravida ut vitae turpis."
+  },
+  {
+    "id": 17,
+    "first_name": "Rashid",
+    "last_name": "Khan",
+    "captain": 0,
+    "matches": 14,
+    "runs": 83,
+    "wickets": 18,
+    "wicket_keeper": 0,
+    "role": "batsman",
+    "batting_style": "Right-handed",
+    "bowling_style": "Off Spin",
+    "Nationality": "Indian",
+    "dob": "03 March, 1983",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 6,
+      "name": "Sunrisers Hydrabad"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dui bibendum, fringilla ipsum iaculis, pretium enim. Morbi ornare elit in dui ullamcorper, et euismod justo lacinia. Sed in dui vel leo consectetur condimentum in in nunc. Quisque maximus sapien sed elit ultricies, quis semper urna condimentum. Aliquam erat volutpat. Aliquam dapibus, leo pulvinar blandit dignissim, nibh orci hendrerit tellus, eget aliquet libero tellus vitae massa. Donec ac lacinia dui, vitae placerat turpis. Integer efficitur venenatis magna, eu posuere nisl luctus vitae. Sed aliquet lectus sit amet accumsan efficitur. Nam interdum est purus, sodales sagittis risus luctus eu. Mauris at tellus molestie, ultrices orci ut, lobortis ligula. Vivamus a turpis et ipsum commodo gravida ut vitae turpis."
+  },
+  {
+    "id": 18,
+    "first_name": "Siddharth",
+    "last_name": "Kaul",
+    "captain": 0,
+    "matches": 8,
+    "runs": 8,
+    "wickets": 7,
+    "wicket_keeper": 0,
+    "role": "bowler",
+    "batting_style": "Right-handed",
+    "bowling_style": "Off Spin",
+    "Nationality": "Indian",
+    "dob": "03 March, 1983",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 6,
+      "name": "Sunrisers Hydrabad"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dui bibendum, fringilla ipsum iaculis, pretium enim. Morbi ornare elit in dui ullamcorper, et euismod justo lacinia. Sed in dui vel leo consectetur condimentum in in nunc. Quisque maximus sapien sed elit ultricies, quis semper urna condimentum. Aliquam erat volutpat. Aliquam dapibus, leo pulvinar blandit dignissim, nibh orci hendrerit tellus, eget aliquet libero tellus vitae massa. Donec ac lacinia dui, vitae placerat turpis. Integer efficitur venenatis magna, eu posuere nisl luctus vitae. Sed aliquet lectus sit amet accumsan efficitur. Nam interdum est purus, sodales sagittis risus luctus eu. Mauris at tellus molestie, ultrices orci ut, lobortis ligula. Vivamus a turpis et ipsum commodo gravida ut vitae turpis."
+  },
+  {
+    "id": 19,
+    "first_name": "Sanju",
+    "last_name": "Samson",
+    "captain": 1,
+    "matches": 14,
+    "runs": 484,
+    "wickets": 0,
+    "wicket_keeper": 1,
+    "role": "batsman",
+    "batting_style": "Right-handed",
+    "bowling_style": "Leg Spin",
+    "Nationality": "Indian",
+    "dob": "03 March, 1983",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 7,
+      "name": "Rajasthan Royals"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dui bibendum, fringilla ipsum iaculis, pretium enim. Morbi ornare elit in dui ullamcorper, et euismod justo lacinia. Sed in dui vel leo consectetur condimentum in in nunc. Quisque maximus sapien sed elit ultricies, quis semper urna condimentum. Aliquam erat volutpat. Aliquam dapibus, leo pulvinar blandit dignissim, nibh orci hendrerit tellus, eget aliquet libero tellus vitae massa. Donec ac lacinia dui, vitae placerat turpis. Integer efficitur venenatis magna, eu posuere nisl luctus vitae. Sed aliquet lectus sit amet accumsan efficitur. Nam interdum est purus, sodales sagittis risus luctus eu. Mauris at tellus molestie, ultrices orci ut, lobortis ligula. Vivamus a turpis et ipsum commodo gravida ut vitae turpis."
+  },
+  {
+    "id": 20,
+    "first_name": "Chris",
+    "last_name": "Morris",
+    "captain": 0,
+    "matches": 11,
+    "runs": 67,
+    "wickets": 15,
+    "wicket_keeper": 0,
+    "role": "all-rounder",
+    "batting_style": "Left-handed",
+    "bowling_style": "Leg Spin",
+    "Nationality": "Indian",
+    "dob": "03 March, 1983",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 7,
+      "name": "Rajasthan Royals"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dui bibendum, fringilla ipsum iaculis, pretium enim. Morbi ornare elit in dui ullamcorper, et euismod justo lacinia. Sed in dui vel leo consectetur condimentum in in nunc. Quisque maximus sapien sed elit ultricies, quis semper urna condimentum. Aliquam erat volutpat. Aliquam dapibus, leo pulvinar blandit dignissim, nibh orci hendrerit tellus, eget aliquet libero tellus vitae massa. Donec ac lacinia dui, vitae placerat turpis. Integer efficitur venenatis magna, eu posuere nisl luctus vitae. Sed aliquet lectus sit amet accumsan efficitur. Nam interdum est purus, sodales sagittis risus luctus eu. Mauris at tellus molestie, ultrices orci ut, lobortis ligula. Vivamus a turpis et ipsum commodo gravida ut vitae turpis."
+  },
+  {
+    "id": 21,
+    "first_name": "Jaydev",
+    "last_name": "Unadkat",
+    "captain": 0,
+    "matches": 6,
+    "runs": 41,
+    "wickets": 4,
+    "wicket_keeper": 0,
+    "role": "bowler",
+    "batting_style": "Right-handed",
+    "bowling_style": "Fast Seam",
+    "Nationality": "Indian",
+    "dob": "03 March, 1983",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 7,
+      "name": "Rajasthan Royals"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dui bibendum, fringilla ipsum iaculis, pretium enim. Morbi ornare elit in dui ullamcorper, et euismod justo lacinia. Sed in dui vel leo consectetur condimentum in in nunc. Quisque maximus sapien sed elit ultricies, quis semper urna condimentum. Aliquam erat volutpat. Aliquam dapibus, leo pulvinar blandit dignissim, nibh orci hendrerit tellus, eget aliquet libero tellus vitae massa. Donec ac lacinia dui, vitae placerat turpis. Integer efficitur venenatis magna, eu posuere nisl luctus vitae. Sed aliquet lectus sit amet accumsan efficitur. Nam interdum est purus, sodales sagittis risus luctus eu. Mauris at tellus molestie, ultrices orci ut, lobortis ligula. Vivamus a turpis et ipsum commodo gravida ut vitae turpis."
+  },
+  {
+    "id": 22,
+    "first_name": "KL",
+    "last_name": "Rahul",
+    "captain": 1,
+    "matches": 13,
+    "runs": 626,
+    "wickets": 0,
+    "wicket_keeper": 1,
+    "role": "batsman",
+    "batting_style": "Right-handed",
+    "bowling_style": "Medium Seam",
+    "Nationality": "Indian",
+    "dob": "03 March, 1983",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 8,
+      "name": "Punjab Kings"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dui bibendum, fringilla ipsum iaculis, pretium enim. Morbi ornare elit in dui ullamcorper, et euismod justo lacinia. Sed in dui vel leo consectetur condimentum in in nunc. Quisque maximus sapien sed elit ultricies, quis semper urna condimentum. Aliquam erat volutpat. Aliquam dapibus, leo pulvinar blandit dignissim, nibh orci hendrerit tellus, eget aliquet libero tellus vitae massa. Donec ac lacinia dui, vitae placerat turpis. Integer efficitur venenatis magna, eu posuere nisl luctus vitae. Sed aliquet lectus sit amet accumsan efficitur. Nam interdum est purus, sodales sagittis risus luctus eu. Mauris at tellus molestie, ultrices orci ut, lobortis ligula. Vivamus a turpis et ipsum commodo gravida ut vitae turpis."
+  },
+  {
+    "id": 23,
+    "first_name": "Ravi",
+    "last_name": "Bishnoi",
+    "captain": 0,
+    "matches": 9,
+    "runs": 1,
+    "wickets": 12,
+    "wicket_keeper": 0,
+    "role": "bowler",
+    "batting_style": "Left-handed",
+    "bowling_style": "Fast Seam",
+    "Nationality": "Indian",
+    "dob": "03 March, 1983",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 8,
+      "name": "Punjab Kings"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dui bibendum, fringilla ipsum iaculis, pretium enim. Morbi ornare elit in dui ullamcorper, et euismod justo lacinia. Sed in dui vel leo consectetur condimentum in in nunc. Quisque maximus sapien sed elit ultricies, quis semper urna condimentum. Aliquam erat volutpat. Aliquam dapibus, leo pulvinar blandit dignissim, nibh orci hendrerit tellus, eget aliquet libero tellus vitae massa. Donec ac lacinia dui, vitae placerat turpis. Integer efficitur venenatis magna, eu posuere nisl luctus vitae. Sed aliquet lectus sit amet accumsan efficitur. Nam interdum est purus, sodales sagittis risus luctus eu. Mauris at tellus molestie, ultrices orci ut, lobortis ligula. Vivamus a turpis et ipsum commodo gravida ut vitae turpis."
+  },
+  {
+    "id": 24,
+    "first_name": "Deepak",
+    "last_name": "Hooda",
+    "captain": 0,
+    "matches": 12,
+    "runs": 160,
+    "wickets": 5,
+    "wicket_keeper": 0,
+    "role": "all-rounder",
+    "batting_style": "Left-handed",
+    "bowling_style": "Fast Seam",
+    "Nationality": "Indian",
+    "dob": "03 March, 1983",
+    "ipl_debut": 2008,
+    "team": {
+      "id": 8,
+      "name": "Punjab Kings"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dui bibendum, fringilla ipsum iaculis, pretium enim. Morbi ornare elit in dui ullamcorper, et euismod justo lacinia. Sed in dui vel leo consectetur condimentum in in nunc. Quisque maximus sapien sed elit ultricies, quis semper urna condimentum. Aliquam erat volutpat. Aliquam dapibus, leo pulvinar blandit dignissim, nibh orci hendrerit tellus, eget aliquet libero tellus vitae massa. Donec ac lacinia dui, vitae placerat turpis. Integer efficitur venenatis magna, eu posuere nisl luctus vitae. Sed aliquet lectus sit amet accumsan efficitur. Nam interdum est purus, sodales sagittis risus luctus eu. Mauris at tellus molestie, ultrices orci ut, lobortis ligula. Vivamus a turpis et ipsum commodo gravida ut vitae turpis."
   }
 ]

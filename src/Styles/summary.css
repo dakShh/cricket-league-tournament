@@ -15,6 +15,14 @@
   height: 200px;
   padding: 1rem;
 }
+.summary-link {
+  transition: 0.3s;
+}
+.summary-link:hover {
+  transform: scale(1.04);
+  transition: 0.3s;
+  color: #fff;
+}
 @media screen and (max-width: 421px) {
   .left-container {
     padding: 0.45rem !important;

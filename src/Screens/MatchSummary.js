@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import MatchList from "../Config/Data/matchList";
 import { Container, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const MatchSummary = ({ match }) => {
   const data = MatchList.find((x) => x.id == match.params.id);
+  const focusStart = useRef();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   console.log("data", data);
   return (
     <>
-      <Container className="min-vh-100 mb-3">
+      <Container className="min-vh-100 mb-3" ref={focusStart}>
         <Card className="summary-card pt-4">
           <div className="text-center mx-auto mb-4 w-50" style={{ borderBottom: "1px solid gray" }}>
             <h6>{data.venue}</h6>
@@ -24,7 +29,12 @@ const MatchSummary = ({ match }) => {
                 />
               </div>
               <div className="left-container d-flex flex-column align-items-end  my-2 fs-4">
-                <span style={{ color: "#fff" }}>{data.matchSummary.winning_team.name}</span>
+                <Link
+                  className="summary-link"
+                  to={`/teamDetails/${data.matchSummary.winning_team.id}`}
+                >
+                  <span>{data.matchSummary.winning_team.name}</span>
+                </Link>
                 <span className="fs-1 fw-bold score-card">
                   {data.matchSummary.winning_team.runs.run}/
                   {data.matchSummary.winning_team.runs.wickets}
@@ -47,7 +57,12 @@ const MatchSummary = ({ match }) => {
                 />
               </div>
               <div className="right-container d-flex flex-column align-items-start  my-2 fs-4">
-                <span style={{ color: "#fff" }}>{data.matchSummary.loosing_team.name}</span>
+                <Link
+                  className="summary-link"
+                  to={`/teamDetails/${data.matchSummary.loosing_team.id}`}
+                >
+                  <span>{data.matchSummary.loosing_team.name}</span>
+                </Link>
                 <span className="fs-1 fw-bold score-card">
                   {data.matchSummary.loosing_team.runs.run}/
                   {data.matchSummary.loosing_team.runs.wickets}

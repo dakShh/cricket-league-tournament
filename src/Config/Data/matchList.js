@@ -90,5 +90,53 @@ const MatchList = [
       },
     },
   },
+  {
+    id: 4,
+    team1: {
+      id: 2,
+      name: "Chennai Super Kings",
+      tags: "csk",
+      img: Images.csk,
+    },
+
+    team2: {
+      id: 3,
+      name: "Mumbai Indians",
+      tags: "mi",
+      img: Images.mi,
+    },
+    status: 1,
+    date: "Saturday, 12th December 2021",
+    time: "02:30 IST (04:30 GMT), 11:30 LOCAL",
+    venue: "Arun Jaitley Stadium",
+    matchSummary: {
+      summary: "Mumbai Indians won by 2 wickets",
+      man_of_the_match: "Rohit Sharma",
+      bowler_of_the_match: "Jayant Yadav",
+      best_fielder: "Hardik Pandya",
+      winning_team: {
+        id: 3,
+        name: "Mumbai Indians",
+        tags: "mi",
+        img: Images.mi,
+        runs: {
+          run: 220,
+          wickets: 4,
+        },
+        overs: 20,
+      },
+      loosing_team: {
+        id: 2,
+        name: "Chennai Super Kings",
+        tags: "csk",
+        img: Images.csk,
+        runs: {
+          run: 218,
+          wickets: 7,
+        },
+        overs: 20,
+      },
+    },
+  },
 ];
 export default MatchList;

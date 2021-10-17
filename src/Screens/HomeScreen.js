@@ -7,6 +7,7 @@ import MatchCard from "../Components/MatchCard";
 import MatchList from "../Config/Data/matchList";
 import Scores from "../Config/Data/scores.json";
 import { Link } from "react-router-dom";
+import Badge from "react-bootstrap/Badge";
 const HomeScreen = (props) => {
   const match = useRef(null);
   const [currFocus, setCurrFocus] = useState();
@@ -56,7 +57,7 @@ const HomeScreen = (props) => {
             <h2 className="title">Standings </h2>
           </div>
 
-          <Table className="table table-hover" responsive="xl">
+          <Table className="table table-hover" responsive>
             <thead>
               <tr>
                 <th scope="col">Team</th>
@@ -71,19 +72,49 @@ const HomeScreen = (props) => {
             <tbody>
               {Scores.map((score, index) => (
                 <tr key={index} className="table-active">
-                  <th scope="row">
-                    <a href={`/teamDetails/${score.team.id}`}>{score.team.name}</a>
-                  </th>
+                  <td style={{ whiteSpace: "nowrap" }}>
+                    <Link className="venue-team-link" to={`/teamDetails/${score.team.id}`}>
+                      {score.team.name}
+                    </Link>
+                  </td>
+
                   <td>{score.played}</td>
                   <td>{score.won}</td>
                   <td>{score.lost}</td>
                   <td>{score.tied}</td>
 
                   <td>{score.points}</td>
-                  <td>
-                    {score.form.map((x) => (
-                      <span>{x}</span>
-                    ))}
+                  <td style={{ whiteSpace: "nowrap" }}>
+                    {score.form.map((x) =>
+                      x == 1 ? (
+                        <Badge
+                          pill
+                          bg="success"
+                          style={{
+                            background: "#7bdb7d",
+                            color: "#242424",
+                            margin: "0 3px",
+                            width: "30px",
+                          }}
+                        >
+                          W
+                        </Badge>
+                      ) : (
+                        <Badge
+                          pill
+                          bg="danger"
+                          style={{
+                            background: "#db7b7b",
+                            color: "#242424",
+                            margin: "0 3px",
+                            minWidth: "20px",
+                            width: "30px",
+                          }}
+                        >
+                          L
+                        </Badge>
+                      )
+                    )}
                   </td>
                 </tr>
               ))}
@@ -119,13 +150,17 @@ const HomeScreen = (props) => {
             <tbody>
               {VenueList.map((venue, index) => (
                 <tr key={index} className="table-primary">
-                  <th scope="row">{venue.venue}</th>
+                  <th scope="row" style={{ whiteSpace: "nowrap" }}>
+                    {venue.venue}
+                  </th>
                   <td>{venue.city}</td>
                   <td>{venue.first}</td>
                   <td>{venue.last}</td>
                   <td>{venue.matchesPlayed}</td>
-                  <td>
-                    <Link to={`/teamDetails/${venue.homeOf.id}`}>{venue.homeOf.name}</Link>
+                  <td style={{ whiteSpace: "nowrap" }}>
+                    <Link className="venue-team-link" to={`/teamDetails/${venue.homeOf.id}`}>
+                      {venue.homeOf.name}
+                    </Link>
                   </td>
                 </tr>
               ))}

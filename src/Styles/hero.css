@@ -13,5 +13,32 @@
   height: 100%;
   width: 100%;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.705);
+  background-color: rgba(0, 0, 0, 0.808);
+}
+.hero-content {
+  display: block;
+  position: absolute;
+  border: 1px solid;
+  padding: 10px;
+  max-width: 500px;
+  max-height: 100px;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -90%);
+  color: #fff;
+}
+@media screen and (max-width: 457px) {
+  .hero-title {
+    font-size: 20px;
+  }
+  .hero-content {
+    transform: translate(-50%, -60%);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hero-title {
+    font-size: 16px;
+  }
 }
